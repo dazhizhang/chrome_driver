@@ -41,3 +41,10 @@ PageUtils.click(driver, By.cssSelector("div#buttons > a.amzn-btn.btn-prim-med"))
 			logger.debug("当前订单有2种以上产品，已分别勾选");
 		}
 
+根据某种特定类型的特定id两个参数找元素
+<br>
+submitElements = driver.findElements(By.xpath("//span[@id='acrPopover']"));
+<br>
+<br>
+找元素特定属性
+title = submitElements.getAttribute("title");
