@@ -1,7 +1,7 @@
 # chrome_driver
 
 
-等待的种类
+# 等待的种类
 	public static boolean wait(WebDriver driver, Indicator indicator, By by, WaitTime waitTime) {
 		try {
 			switch (indicator) {
@@ -21,18 +21,18 @@
 		}
 	}
 
-访问网页
+# 访问网页
 driver.get(url);
 
 
-填写input文本框
+# 填写input文本框
 PageUtils.setValue(driver, driver.findElement(By.name("email_address")), buyer.getEmail());
 
 PageUtils.setValue(driver, driver.findElement(By.id("email_address")), buyer.getEmail());
 
 PageUtils.click(driver, By.cssSelector("div#buttons > a.amzn-btn.btn-prim-med"));
 
-在同类元素中查找某个特定值
+# 在同类元素中查找某个特定值
 		List<WebElement> checkboxes = driver.findElements(By.cssSelector("input[type=checkbox]"));
 		if (checkboxes != null && checkboxes.size() > 1) {
 			for (WebElement we : checkboxes) {
