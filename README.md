@@ -55,6 +55,8 @@ driver.findElements(By.className("a-row"));
 <br>
 
 # botton 点击失效
+WebElement we
+
 we.sendKeys(Keys.RETURN);   
 or
 we.sendKeys(Keys.ENTER);
