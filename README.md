@@ -53,3 +53,8 @@ title = submitElements.getAttribute("title");
 <br>
 driver.findElements(By.className("a-row"));
 <br>
+
+# botton 点击失效
+we.sendKeys(Keys.RETURN);   
+or
+we.sendKeys(Keys.ENTER);
