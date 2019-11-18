@@ -60,3 +60,8 @@ WebElement we
 we.sendKeys(Keys.RETURN);   
 or
 we.sendKeys(Keys.ENTER);
+
+# 得到页面元素内容
+ for (WebElement bt : buttonList) {
+                        System.out.println(bt.getAttribute("outerHTML"));
+                    }
