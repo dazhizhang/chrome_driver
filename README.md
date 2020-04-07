@@ -65,3 +65,15 @@ we.sendKeys(Keys.ENTER);
  for (WebElement bt : buttonList) {
                         System.out.println(bt.getAttribute("outerHTML"));
                     }
+
+
+# selenium
+使用selenium附加已经打开的Chrome浏览器
+<br>
+https://www.zhupite.com/python/python-selenium-debug-existing-browser.html
+<br>
+步骤<br>
+关闭所有Chrome浏览器，并用命令行方式启动：<br>
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe<br>
+" --remote-debugging-port=8888<br>
+实际上是开放了一个调试端口，这个端口可以自行修改。<br>
